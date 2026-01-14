@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 //기수 정렬 (radix sort)
 public class 기수정렬_10989 {
     private static int[] A;
-    private static long result;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
