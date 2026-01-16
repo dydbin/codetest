@@ -44,6 +44,7 @@ public class 기수정렬_10989 {
                 output[bucket[(A[i])/jari % 10] -1] = A[i];
                 bucket[(A[i] /jari) % 10]--;
             }
+            // 해당 자릿수 정렬이 끝난 output 배열을 다시 원래 배열 A에 복사
             for (int i = 0; i< A.length; i++) {
                 A[i] = output[i];
             }
